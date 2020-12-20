@@ -1,0 +1,12 @@
+#para1 {
+    font-size: 30px;
+    font-style: italic;
+}
+#para2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#para3 {
+    font: lighter;
+}

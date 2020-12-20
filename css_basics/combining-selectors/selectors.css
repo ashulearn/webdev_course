@@ -1,0 +1,15 @@
+li {
+    font-weight: bold;
+}
+
+ul > li {
+    color: lightsalmon;
+}
+
+ol > li {
+    color: lightseagreen;
+}
+
+ul li li {
+    font-style: italic;
+}
