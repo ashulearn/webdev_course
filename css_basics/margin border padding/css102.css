@@ -1,0 +1,22 @@
+.box {
+    margin: 50px;
+    padding: 20px;
+    border: solid black 3px;
+}
+
+#div1 {
+    background-color: lightgreen;
+}
+
+#div2 {
+    background-color: lightpink;
+}
+
+#div3 {
+    background-color: lightsalmon;
+}
+
+/* padding and margin can be under stood with the help of an analogy of house. let us consider we have top view of a house 
+around which we have a garden and a footpath so the footpath is the margin which does not belongs to house  owner but is around 
+the house and the garnden is around the house is the padding which is under the control of the house owner and the house is the 
+child or the content*/
