@@ -1,0 +1,20 @@
+* {
+    background-color: yellow;
+}
+ div {
+     background-color: tomato;
+ }
+
+ .cl1 {
+     background-color: turquoise;
+ }
+
+ #id1 {
+     background-color: violet;
+ }
+ /* here we see the precende for style application is id > class > element > star and if we 
+ write another #id1 then the css which is written later is applied   */
+
+ /* we can write the styles in three places another file or style tag in html page or in style attribute of any tag 
+ there is no precedence in style tag and file which ever is written later is applied but inline style takes precedence over all 
+ the other places */
