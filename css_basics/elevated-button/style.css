@@ -24,3 +24,8 @@ div.btn:active {
     transition: 0.2s;
 
 }
+
+/* here we have created a button which on hover looks to come out when pressed(active) it moves in. So it make it move out we 
+move the button in 10px left and 10px up and we increase the shadow and to make it look go in we move it right and down from initial
+and decrease the shadow :hover and :active are pseudo selectors we can also define transition for diffrent things to happen in diff time
+like transition: 0.2 transate() 0.5 box-shadow:...... */
