@@ -1,0 +1,76 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+
+    background-color: blueviolet;
+}
+
+@media (max-width:900px) {
+    .box {
+        background-color: green;
+    }
+    
+}
+
+@media (max-width : 600px) {
+    .box {
+        background-color: yellow;
+    }
+}
+
+/* media query is used to apply properties when the given condition is satisfied  */
+/* if we write max-width : 600px before max-width:900px then we will never reach the yellow color because both the properties are
+applied and the property which is written later is over-written */
+.mainbox {
+    width: 90%;
+    display: flex;
+    margin: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    
+    background-color: ghostwhite;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+}
+.logo {
+    background-color: lightskyblue;
+    margin: 50px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#desc {
+    height: 50px;
+    width: 200px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px auto;
+
+}
+#demo {
+    height: 50px;
+    width: 200px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px auto;
+
+
+
+}
+#desc:hover {
+    background-color: wheat;
+}
+#demo:hover {
+    background-color: wheat;
+}
