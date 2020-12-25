@@ -1,0 +1,6 @@
+Strongly typed means, a will not be automatically converted from one type to another.
+ Weakly typed is the opposite: Perl can use a string like "123" in a numeric context,
+  by automatically converting it into the int 123. A strongly typed language like python will not do this.
+
+Statically typed means, the compiler figures out the type of each variable at compile time.
+ Dynamically typed languages only figure out the types of variables at runtime
