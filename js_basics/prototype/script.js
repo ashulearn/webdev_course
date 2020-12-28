@@ -42,3 +42,22 @@ console.log(fun.__proto__==Function.prototype)
 //String.prototype inherits from Object.prototype
 // when we do typeof Object.create(Boolean.prototype) it will give us object 
 // and when we do type of bool we get boolean but both of them inherits from Boolean.prototype
+
+let str2 = 'dfdgdf'
+console.log(str.charAt == str2.charAt) //true, so this means CharAt is not defined in str or str2 because it has same reference
+// in both we can find where it exists by doing str.__proto__.CharAt ....so on and we can redefine it there
+
+String.prototype.charAt = function () {
+    return 'X'
+}
+str.charAt(4) //returns "X"
+
+// String prototype contains all the default string functions
+// like CharAt,indexOf,etc..
+
+Array.prototype.joinOriginal=Array.prototype.join
+
+Array.prototype.join = function() {
+    console.log('join called at',this)
+    return Array.prototype.joinOriginal(...arguments)
+}
