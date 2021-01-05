@@ -1,0 +1,5 @@
+Parallerism is when we have two processors working and executing same thing where as concurrncy we have one peocessor but two
+tasks get time one after another so fast that it looks both are executing concurrently.
+ 
+
+  
