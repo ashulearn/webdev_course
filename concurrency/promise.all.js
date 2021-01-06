@@ -1,6 +1,3 @@
-// in async await there is no change in definition only the calling is different 
-// definition is similar to promises
-
 function helloSayer(times,name) {
     return new Promise((resolve,reject) => {
         let count = 0
@@ -17,8 +14,16 @@ function helloSayer(times,name) {
 }
 
 async function task() {
-    await helloSayer(3,'ashu')
-    await helloSayer(2,'aman')
+    await Promise.all([helloSayer(3,'ashu'),
+    helloSayer(3,'harshita'),
+    helloSayer(3,'archana')])
+    
+    Promise.all([
+        helloSayer(3,'aman'),
+    helloSayer(3,'hind'),
+    helloSayer(2,'devi')
+    ])
+    
 }
 
 task()
