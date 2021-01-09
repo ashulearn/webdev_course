@@ -1,0 +1,12 @@
+Node.js is an interpretor for java script which enables us to run the java script code
+in our computer. Back in 1995 the java script language was created just to make 
+the websites responsive and it was not used in backend coding because it was slow as compared to C++
+and JAVA . but in 2005 the google tried to improve it's java script engine in it's browser
+which made the engine so fast that it could run java script at a speed compairable to C++ 
+so people started using java script as a backend language also. In 2010 a student in 
+college took the v8 javascript engine from goole's browser and tried to run it on 
+terminal this is what we call now a days node.js
+
+Any browser has two engines
+1. Layout Engine (renders html css)
+2. java script Engine (renders java script)
