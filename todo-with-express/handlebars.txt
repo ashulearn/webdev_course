@@ -1,0 +1,9 @@
+Handlebars is a templating language. When we created todo-list we inserted many variables in the html using backticks(``) 
+and dollar symbol but it gets ugly with time so we use handle bars to write it easily
+there are many other teplating languages also but we will use handle bars
+
+for using hbs(handlebars) first do npm install hbs
+then we will create a folder named views and keep all the hbs files there
+now we will set app.set('view engine' ,'hbs') which sets the view engine
+if we would use jade or any other view engine we will set it to that
+now in the response do res.render(hbs file name)
