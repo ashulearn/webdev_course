@@ -1,9 +1,19 @@
-ul ul {
-    visibility: hidden;
-    height: 0;
+#box {
+    height: 70px;
+    width: 200px;
+    
+    background-color: tomato;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    color: lightsalmon;
+    font-size: 26pt;
+    line-height: 100%;
+    box-shadow: grey 8px 8px 5px;
+    transition: 1s;
 }
 
-li:hover ul {
-    visibility: visible;
-    height: auto;
+#box:hover {
+    transform: translate(-20px,-20px);
+    box-shadow: grey 28px 28px 25px;
 }

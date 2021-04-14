@@ -1,3 +1,8 @@
+
+//there are three ways to declare a variable
+// let a=10; this has a block scope
+// var a=10; this has a function scope
+// a=10; this has global scope
 class Person {
     constructor(name, age) {
         this.name=name
