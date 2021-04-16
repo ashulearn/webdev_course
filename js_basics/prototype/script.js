@@ -22,7 +22,8 @@ console.log(typeof Object)
 console.log(typeof Function)
 
 //__proto__ is a hidden pointer which points to the blueprint from which it was created and prototype is the
-// blueprint 
+// blueprint
+console.log('======= proto chain =========')
 console.log(str.__proto__.__proto__==obj.__proto__)
 console.log(num.__proto__.__proto__==obj.__proto__)
 console.log(boolean.__proto__.__proto__==obj.__proto__)
@@ -61,3 +62,10 @@ Array.prototype.join = function() {
     console.log('join called at',this)
     return Array.prototype.joinOriginal(...arguments)
 }
+
+/*
+prototype vs __proto__
+prototype is a blueprint when objects are made it is based on the prototypes
+and __proto__ is a pointer which is in object which tells from which protoye the current object is made
+
+*/

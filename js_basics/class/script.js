@@ -13,7 +13,8 @@ class Person {
     {
         if(this.age > 18)
         return true
-
+        else 
+        return false
     }
 }
 
@@ -25,7 +26,7 @@ console.log(typeof Person) //we will get function,there is no datatype called cl
 console.log(p1.__proto__==Person.prototype)//true
 console.log(p1.__proto__.__proto__==Object.prototype)//true
 
-class Student {
+class Student extends Person{
     constructor(name,age,grade) {
         super(name,age)
         this.grade=grade

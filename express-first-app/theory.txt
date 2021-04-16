@@ -1,0 +1,4 @@
+We have studied about thing like :
+1. query paraments 
+2. url paramerters
+3. how to acess body paramerters

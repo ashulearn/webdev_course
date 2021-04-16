@@ -12,3 +12,4 @@ let obj2 = Object.create(obj1) //this is called inheritance (prototype inheritan
           ->it will find in obj2.__proto__.__proto__
           ->till it becomes null 
 */
+// if we make a variable of name a in obj2 then it will shadow the variable in obj1 
