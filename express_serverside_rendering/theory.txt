@@ -1,0 +1,2 @@
+Sometimes some people donot have javascript enable so in this project we will send in response the complete
+html page without any javascript

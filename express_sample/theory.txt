@@ -1,0 +1,13 @@
+The steps we folled to make this are
+1. first we have done npm init and npm install express
+2. then we requied the expres in the servers.js file and made the handler for the '/' and started the server by using app.listen
+3. then we have made the public folder 
+    public folder is a folder where we place a static part of the website which doesn't change using 
+    app.use('/public',express.static(folder path))
+
+4. then we made index.html ,todolist.html,todolist.js and downloaded the jquery
+5. now we made the routes folder which will handle routes from todolist.html
+6. In the routes folder we have made the todos.js which requires the express router
+and used it to handle get and post requests we have an array of objects named todos 
+when there is a get request it just sends the array and when there is a post request
+it pushes the req.body.task in the todos array
