@@ -42,7 +42,7 @@ function addNewPerson(name,age,city) {
         })
     } )
 }
-
+//in this function we write the name,age and city in array and ? in the query to avoid sql_injection
 module.exports = {
     getAllPersons,
     addNewPerson
