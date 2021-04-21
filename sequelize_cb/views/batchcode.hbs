@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batch code</title>
+</head>
+<body>
+    <h1> Batch Code</h1>
+    <form action="/batchcode" method="POST">
+      <b>Center</b>
+    <select name="center">
+        {{#each center as |c|}}
+            <option value="{{c.id}}">{{c.name}}</option>
+        {{/each}}
+    </select>
+    <br>
+    <b>Season</b>
+    <select name="season">
+        {{#each season as |c|}}
+            <option value="{{c.id}}">{{c.name}}</option>
+        {{/each}}
+    </select>
+    <br>  
+    <b>Course</b>
+    <select name="course">
+        {{#each course as |c|}}
+            <option value="{{c.id}}">{{c.name}}</option>
+        {{/each}}
+    </select>
+    <br>
+    <b>Year</b>
+    <select name="year">
+        {{#each year as |c|}}
+            <option value="{{c}}">{{c}}</option>
+        {{/each}}
+    </select>
+    <br>
+    <b>Batch</b>
+    <input name="batch" type="number" min="1" max="5">
+
+    <br>
+    <b>Start Date</b>
+    <input name="start" type="date">
+    <br>
+    <b>End Date</b>
+    <input name="end" type="date">
+    <br>
+    <input type="reset">
+    <br>
+    <input type="submit">
+    </form>
+    
+</body>
+</html>
