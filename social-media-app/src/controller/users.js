@@ -10,6 +10,21 @@ async function createAnonUser()
     return user
 }
 
+async function getUserById(id) {
+    return await Users.findOne({where : { id }})
+}
+
+async function getUserByUsername({where : { username }}) {
+    return await Users.findOne({
+        username
+    })
+}
+
+module.exports= {
+    createAnonUser,
+    getUserById,
+    getUserByUsername
+}
 // async function task() 
 // {
 //     console.log(await createAnonUser())
