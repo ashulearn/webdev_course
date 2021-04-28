@@ -10,17 +10,17 @@ async function createAnonUser()
     return user
 }
 
-async function task() 
-{
-    console.log(await createAnonUser())
-    console.log('------------------------')
-    console.log(await createAnonUser())
-    console.log('------------------------')
-    console.log(await createAnonUser())
-    console.log('------------------------')
-    console.log(await createAnonUser())
-    console.log('------------------------')
+// async function task() 
+// {
+//     console.log(await createAnonUser())
+//     console.log('------------------------')
+//     console.log(await createAnonUser())
+//     console.log('------------------------')
+//     console.log(await createAnonUser())
+//     console.log('------------------------')
+//     console.log(await createAnonUser())
+//     console.log('------------------------')
 
-}
+// }
 
-task()
+// task()
