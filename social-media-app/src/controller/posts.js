@@ -16,7 +16,7 @@ async function createNewPost(userId,tittle,body)
 //     tittle : 'sdc'
 // })
 
-async function showAllPosts(query) {
+async function findAllPosts(query) {
     //todo
     const posts = await Posts.findAll({
         include : [Users]
@@ -42,5 +42,5 @@ async function showAllPosts(query) {
 
 module.exports = {
     createNewPost,
-    showAllPosts
+    findAllPosts
 }
