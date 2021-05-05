@@ -1,4 +1,5 @@
 const { Users, Posts } = require('../db/model')
+
 async function createNewPost(userId, title, body) {
     const post = await Posts.create({
         title,
@@ -10,7 +11,7 @@ async function createNewPost(userId, title, body) {
 
 //we will have an object passed into the showAllPosts function
 
-async function showAllPosts(query) {
+async function findAllPosts(query) {
     //todo :handle query
 
     const posts =await Posts.findAll({
@@ -21,7 +22,7 @@ async function showAllPosts(query) {
 
 module.exports = {
     createNewPost,
-    showAllPosts
+    findAllPosts
 }
 
 // async function task() {
