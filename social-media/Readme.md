@@ -44,3 +44,27 @@ src
 1.  **show all comments(under a post)**
 2.  **show all comments(by a user)**
 3.  **add a comment**
+
+## API Documentation
+
+### `users`
+
+1. `POST /api/users`
+    Creates a new user with random name and id
+2. `GET /api/users{id}`
+    Get an user with given userId
+3. `GET /api/users{username}`
+    Get an user with given username
+
+### `posts`
+
+1. `GET /api/posts`
+    Get al the posts by every one
+2. `POST /api/posts`
+    Creates new post 
+    Required fields in the body are:-
+    ```
+    userId
+    title
+    body
+    ``` 
