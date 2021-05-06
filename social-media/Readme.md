@@ -26,7 +26,7 @@ G:.
 │   index.html                 # home page
 │
 ├───app
-│       cbsocial-common.js     # our own front-end code 
+│       common.js     # our own front-end code 
 │
 ├───components
 │       navbar.html            # our own code snippents
