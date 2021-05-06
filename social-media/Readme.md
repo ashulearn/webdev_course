@@ -8,13 +8,36 @@ First we will setup the databse which we will use for the project
 create database cbsocialmediadb;
 ```
 
-## Project structure  
+## Project structure 
+
+### Backend (Server-Side) 
 ```shell
 src
 ├───controllers         # functions to connect to db
 ├───db                  # db connection and model definition
-├───public              #html/css files for the static part of website    
-└───routes              #express middlewares(route wise)
+├───public              # html/css files for the static part of website    
+└───routes              # express middlewares(route wise)
+```
+
+### Front-end (Client side)
+
+```
+G:.
+│   index.html                 # home page
+│
+├───app
+│       cbsocial-common.js     # our own front-end code 
+│
+├───components
+│       navbar.html            # our own code snippents
+│
+├───css
+│       bootstrap.css          # css libraries we are using
+│
+└───js                         # js libraries we are using
+        bootstrap.js
+        jquery.js
+        popper.js
 ```
 ## Bussiness Logic
 

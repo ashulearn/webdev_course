@@ -1,0 +1,16 @@
+#navbar {
+    position: sticky;
+    bottom: 0px;
+}
+
+#footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    bottom: 0px;
+    background-color: #DEE2E6;
+}
+
+#content {
+    height: 2000px;
+}
